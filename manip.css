@@ -1,0 +1,117 @@
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+div {
+    margin: 20px 0 50px;
+}
+
+#galerie {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#galerie-g img {
+    width: 800px;
+    margin: 0 50px;
+    border: 5px solid rgb(80, 80, 80);
+}
+
+#galerie-d {
+    display: flex;
+    flex-flow: row wrap;
+    width: 300px;
+}
+
+#galerie-d img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.noir {
+    border: 5px solid rgb(20, 20, 20);
+}
+
+.rouge {
+    border: 5px solid rgb(176, 0, 0);
+}
+
+td {
+    text-align: left;
+}
+
+#tablo {
+    width: 50%;
+    text-align: center;
+}
+
+#cbleu {
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(20, 20, 20);
+    background-color: rgba(0, 0, 255, 0.75);
+    position: relative;
+}
+
+.pos-un {
+    left: 200px;
+}
+
+.pos-deux {
+    left: 400px;
+}
+
+.pos-trois {
+    left: 400px;
+    bottom: 200px;
+}
+
+.pos-quatre {
+    left: 200px;
+    bottom: 200px;
+}
+
+#cvert {
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(20, 20, 20);
+    background-color: rgba(0, 255, 0, 0.75);
+    position: relative;
+    margin: 0;
+}
+
+#roul {
+    border: 1px solid rgb(20, 20, 20);
+    background-color: grey;
+    padding: 20px;
+}
+
+.roul-un {
+    left: 100px;
+}
+
+.roul-deux {
+    left: 200px;
+}
+
+.roul-trois {
+    left: 300px;
+}
+
+.roul-quatre {
+    left: 400px;
+}
+
+.roul-cinq {
+    left: 500px;
+}
+
+.roul-six {
+    left: 600px;
+}
